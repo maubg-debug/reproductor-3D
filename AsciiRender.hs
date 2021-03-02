@@ -15,7 +15,7 @@ type Vec3 = (Float,Float,Float)
 -- Un caracter para pintar un triángulo o, alternativamente, pintar usando el vector normal
 data Color = Col Char | Norm deriving (Show)
 
--- Un triagle se compone de 3 puntos (x, y, z) y un color
+-- Un triangulo se compone de 3 puntos (x, y, z) y un color
 data Triangle = Triangle Vec3 Vec3 Vec3 Color deriving (Show)
 
 -- Magnitud vectorial
